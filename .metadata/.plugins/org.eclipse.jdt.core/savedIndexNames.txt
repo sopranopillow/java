@@ -1,0 +1,9 @@
+INDEX VERSION 1.127+/Users/esteban/GitHub/java/.metadata/.plugins/org.eclipse.jdt.core
+1596029137.index
+3566380882.index
+3889977531.index
+1851395758.index
+1617410958.index
+3371409753.index
+1731788921.index
+673597511.index
