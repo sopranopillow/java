@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Main_runner.java&apos; to &apos;Game_Engine/org/game&apos;&#x0A;- Original project: &apos;Game_Engine&apos;&#x0A;- Destination element: &apos;Game_Engine/org/game&apos;&#x0A;- Original element: &apos;Main_runner.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/org&lt;game" element1="/org&lt;{Main_runner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1447249724417" units="1" version="1.0"/>
+</session>

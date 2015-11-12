@@ -1,0 +1,18 @@
+package chapter_10;
+
+public class Lab_3 
+{
+	private String word;
+	private int ind;
+	
+	public Lab_3(String s)
+	{
+		word = s;
+	}
+	
+	public void check_Index(String s)
+	{
+		ind = word.indexOf(s);
+		if()
+	}
+}

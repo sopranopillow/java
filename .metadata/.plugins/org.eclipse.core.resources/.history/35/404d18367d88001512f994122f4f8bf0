@@ -1,0 +1,30 @@
+package game;
+
+import java.awt.Font;
+
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Player extends JPanel
+{
+	private static final long serialVersionUID = 1L;
+	
+	private int X, Y;
+	
+	public Player(int x, int y)
+	{
+		
+	}
+	
+	public int getX()
+	{
+		return X;
+	}
+	
+	public int getY()
+	{
+		return Y;
+	}
+}

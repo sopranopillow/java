@@ -1,0 +1,43 @@
+package game;
+
+import java.awt.Font;
+
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Player extends JPanel
+{
+	private static final long serialVersionUID = 1L;
+	
+	private int X, Y;
+	
+	public Player( String imageURL, String textOne, String textTwo ) {
+        setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
+        add( new JLabel( new ImageIcon(imageURL )));
+        add( new JLabel( textOne ){{
+            setFont( new Font("Arial",  Font.BOLD, 20));
+        }});
+        add( new JLabel( textTwo ));        
+    }
+	
+	public int getX()
+	{
+		return X;
+	}
+	
+	public int getY()
+	{
+		return Y;
+	}
+	
+	public void setX(int setX)
+	{
+		X = setX;
+	}
+	public void setY(int setY)
+	{
+		Y = setY;
+	}
+}
