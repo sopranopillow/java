@@ -1,0 +1,26 @@
+package chapter_14;
+
+public class lab_6 {
+	private String word;
+	
+	public lab_6(String wrd)
+	{
+		word = wrd;
+	}
+	
+	public void run()
+	{
+		System.out.println(word.indexOf(0));
+		System.out.println(word.indexOf(word.length()-1));
+		for(int i = word.length()-1; i !=0; i--)
+		{
+			System.out.println(word.indexOf(i));
+		}
+	}
+	
+	public static void main(String args[])
+	{
+		lab_6 l = new lab_6("hello");
+		l.run();
+	}
+}

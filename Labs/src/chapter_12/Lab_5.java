@@ -18,7 +18,7 @@ public class Lab_5 {
 	
 	public static void main(String args[])
 	{
-		Lab_5 lb =  new Lab_5("hello", "goodbye");
+		Lab_5 lb =  new Lab_5("gooodfsdff", "goodbye");
 		lb.getA();
 	}
 }

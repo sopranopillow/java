@@ -1,6 +1,6 @@
 package chapter_13;
 
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -65,11 +65,6 @@ public class MorseCode
 	public static void main (String args[])
 	{
 		MorseCode m = new MorseCode();
-		int i = 65;
-		while(i != 90)
-		{
-			m.setChar((char)(i));
-			i++;
-		}
+		m.setChar('9');
 	}
 }

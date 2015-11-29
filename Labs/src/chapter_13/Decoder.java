@@ -24,7 +24,7 @@ public class Decoder {
 	
 	public static void main(String args[])
 	{
-		Decoder dec = new Decoder('*');
+		Decoder dec = new Decoder('1');
 		System.out.println(dec.getA());
 	}
 }

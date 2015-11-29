@@ -1,5 +1,5 @@
 package chapter_11;
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name - 
 //Date -
 //Class -
@@ -20,6 +20,8 @@ public class GraphicsRunner extends JFrame
 		getContentPane().add(new AnimatedCar(WIDTH, HEIGHT));
 				
 		setVisible(true);
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
 	public static void main( String args[] )

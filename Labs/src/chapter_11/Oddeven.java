@@ -16,7 +16,7 @@ public class Oddeven {
 	
 	public static void main(String args[])
 	{
-		Oddeven o = new Oddeven("cat");
+		Oddeven o = new Oddeven("fghf");
 		o.getA();
 	}
 }
